@@ -1,0 +1,16 @@
+<model-viewer src="manpack.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="poster.webp" shadow-intensity="1">
+    <button class="Hotspot" slot="hotspot-1" data-position="-0.017979631986764874m 0.54500018219354m -0.006923607878036416m" data-normal="0m 0.9999999999999868m -1.629206789477422e-7m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Button 01</div>
+    </button><button class="Hotspot" slot="hotspot-2" data-position="-0.0583797657541008m 0.40569740534763427m -0.05073741943250537m" data-normal="-0.03649383931242426m -1.7281952476443207e-7m -0.9993338779868364m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Button 02</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
